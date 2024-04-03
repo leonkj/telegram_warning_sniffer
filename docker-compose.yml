@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+    py:
+        build: ./
+        volumes: 
+            - ./:/home/app
+        tty: true
+        entrypoint: tail -f /dev/null

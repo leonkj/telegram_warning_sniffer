@@ -1,3 +1,7 @@
-telethon
-python-dotenv
-
+pyaes==1.6.1
+pyasn1==0.6.0
+python-dotenv==1.0.1
+rsa==4.9
+setuptools==69.1.1
+Telethon==1.34.0
+wheel==0.43.0
